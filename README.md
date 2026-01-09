@@ -7,8 +7,7 @@
 
 **A specialized, drag-and-drop compression tool designed for preserving scanned exam answer sheets.**
 
-![App Screenshot](path/to/your/screenshot.png)
-*(Please replace this path with your actual screenshot image, e.g., `screenshot.png`)*
+![App Screenshot](screenshot.png)
 
 ---
 
