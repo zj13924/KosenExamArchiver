@@ -7,7 +7,9 @@
 
 **A specialized, drag-and-drop compression tool designed for preserving scanned exam answer sheets.**
 
-![App Screenshot](screenshot.png)
+<div align="center">
+  <img src="https://raw.githubusercontent.com/zj13924/KosenExamArchiver/refs/heads/main/screenshot.png" alt="App Screenshot" width="50%">
+</div>
 
 ---
 
