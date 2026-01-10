@@ -11,8 +11,13 @@ import fitz  # PyMuPDF
 JST = timezone(timedelta(hours=9))
 NOW_JST = datetime.now(JST)
 VER_DATE = NOW_JST.strftime("%Y%m%d")
+
+# Clean Title for the GUI Window
+APP_TITLE = f"Kosen Exam Archiver ver. {VER_DATE}"
+
+# Full "Creator" string for PDF Metadata (includes URL for traceability)
 REPO_URL = "https://github.com/zj13924/KosenExamArchiver"
-APP_TITLE = f"Kosen Exam Archiver ver. {VER_DATE}  {REPO_URL}"
+APP_CREATOR_INFO = f"{APP_TITLE}  {REPO_URL}"
 
 # --- ABOUT TEXT CONTENT ---
 ABOUT_TEXT = f"""{APP_TITLE}
@@ -175,7 +180,7 @@ def worker_batch_job(
                 {
                     "title": os.path.basename(output_path),
                     "author": current_user,
-                    "creator": APP_TITLE,
+                    "creator": APP_CREATOR_INFO,  # Includes URL
                     "producer": "PyMuPDF",
                     "creationDate": timestamp,
                     "modDate": timestamp,
@@ -205,7 +210,7 @@ def worker_batch_job(
                     {
                         "title": os.path.basename(output_path),
                         "author": current_user,
-                        "creator": APP_TITLE,
+                        "creator": APP_CREATOR_INFO,  # Includes URL
                         "producer": "PyMuPDF",
                         "creationDate": timestamp,
                         "modDate": timestamp,
@@ -228,7 +233,7 @@ class ExamArchiverApp(TkinterDnD.Tk):
     def __init__(self):
         super().__init__()
 
-        self.title(APP_TITLE)
+        self.title(APP_TITLE)  # Clean Title (No URL)
         self.geometry("650x600")
 
         try:
