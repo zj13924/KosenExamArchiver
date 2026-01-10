@@ -59,7 +59,7 @@ If you wish to modify or build this application from the source, you will need t
 To build the standalone executable (`.exe`) that includes the icon and necessary DLLs, run the following command in your terminal:
 
    ```bash
-   python -m PyInstaller --noconfirm --onefile --windowed --name "KosenExamArchiver" --icon="emoji_u1f4e5.ico" --add-data "emoji_u1f4e5.ico;." --collect-all tkinterdnd2 "ExamArchiver_GUI_v12.py"
+   python -m PyInstaller --noconfirm --onefile --windowed --name "KosenExamArchiver" --icon="emoji_u1f4e5.ico" --add-data "emoji_u1f4e5.ico;." --collect-all tkinterdnd2 "KosenExamArchiver.py"
    ```
 > **Note:** Ensure `emoji_u1f4e5.ico` is present in the source directory before compiling.
 
