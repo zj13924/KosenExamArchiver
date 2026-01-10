@@ -21,6 +21,7 @@ When archiving thousands of handwritten exam answer sheets, standard PDF compres
 
 * **📄 "Smart Whitening" Algorithm**: Automatically detects the paper background color and snaps it to pure white (RGB 255,255,255), removing scanner noise and reducing file size.
 * **🔴 Handwriting Emphasis**: Preserves the clarity of red ink (grading marks) and pencil strokes while aggressively compressing the rest.
+* **🔗 Batch Merging**: Includes an optional "Merge" mode that combines all processed documents into a single master PDF (e.g., `Class_3I_Merged.pdf`), ideal for archiving an entire class as one file.
 * **🧹 Flattening**: Converts complex vector PDF layers into a single, robust raster image. This prevents "missing annotation" bugs in future PDF viewers.
 * **⏱️ Auto-Timestamping**: Injects ISO-compliant `CreationDate` and `ModDate` metadata into the PDF for archival integrity.
 * **🖱️ Drag-and-Drop Workflow**: Supports dropping individual files, folders, or even dragging files directly onto the `.exe` icon.
