@@ -54,7 +54,7 @@ If you wish to modify the code or build the application yourself, follow these s
 1. **Clone the repository:**
 
    ```bash
-   git clone [https://github.com/zj13924/KosenExamArchiver.git](https://github.com/zj13924/KosenExamArchiver.git)
+   git clone https://github.com/zj13924/KosenExamArchiver.git
    cd KosenExamArchiver
    ```
 
