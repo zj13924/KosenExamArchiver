@@ -8,8 +8,19 @@
 **A specialized, drag-and-drop compression tool designed for preserving scanned exam answer sheets.**
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/zj13924/KosenExamArchiver/refs/heads/main/screenshot.png" alt="App Screenshot" width="50%">
+  <img src="https://raw.githubusercontent.com/zj13924/KosenExamArchiver/refs/heads/master/screenshot.png" alt="App Screenshot" width="50%">
 </div>
+
+---
+
+## 📥 Download & Run (No Installation Required)
+
+If you just want to use the tool, you do not need to install Python.
+
+1.  **[Click here to download the latest KosenExamArchiver.exe](https://github.com/zj13924/KosenExamArchiver/raw/refs/heads/master/dist/KosenExamArchiver.exe)**
+    *(This links to the pre-built executable in the `dist/` folder)*
+2.  Double-click the downloaded file to launch.
+3.  Drag and drop your exam PDFs directly onto the window.
 
 ---
 
@@ -29,10 +40,9 @@ When archiving thousands of handwritten exam answer sheets, standard PDF compres
 * **🖱️ Drag-and-Drop Workflow**: Supports dropping individual files, folders, or even dragging files directly onto the `.exe` icon.
 
 ---
+## 🛠️ For Developers (Build from Source)
 
-## 🛠️ Environment & Compilation
-
-If you wish to modify or build this application from the source, you will need the following environment.
+If you wish to modify the code or build the application yourself, follow these steps.
 
 ### Prerequisites
 
